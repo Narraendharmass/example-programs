@@ -1,0 +1,17 @@
+package Timer;
+public class Timer{
+    public void run()
+     int i = 60;
+        while(i>0)
+        {
+            System.out.println("Remaining: "i+" seconds");
+        try
+        {
+            i--;
+            Thread.sleep(1000L);    
+        }
+        catch (InterruptedException e)
+            {
+            }
+        }
+    }
